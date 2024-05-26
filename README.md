@@ -3,6 +3,13 @@
 This script manages your todo tasks with the following features:
 - add, update, delete, show, list, and search tasks.
 - each task has an id, title, description, location, due date and time, and completion status.
+- ./todo add (add task)
+- ./todo update (update task)
+- ./todo delete (delete task)
+- ./todo show (show task)
+- ./todo list 2024-05-26 (list tasks for a given day)
+- ./todo search (search for a task by title)
+- ./todo (display tasks for the current day)
 
 ## Design Choices
 - tasks are stored in a text file (`tasks.txt`) for simplicity and ease of use.
